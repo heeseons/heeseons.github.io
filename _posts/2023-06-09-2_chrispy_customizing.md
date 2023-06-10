@@ -1,11 +1,7 @@
 ---
 title: "[2] Jekyll Chrispy 테마 커스터마이징"
-categories:
-- Git
-- GitBlog
-tags:
-- jekyll
-- gitblog
+categories: [Git, GitBlog]
+tags: [jekyll, gitblog]
 ---
 
 [GitBlog 생성](https://heeseons.github.io/posts/1_jekyll_setting/)을 통해 초기 세팅을 완료했다면, 이제 블로그를 커스터마이징 하겠습니다.\
