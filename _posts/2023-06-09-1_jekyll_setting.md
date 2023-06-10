@@ -1,7 +1,7 @@
 ---
 title: "[1] Jekyll 기반 GitBlog 생성(Setting)"
 categories: [Git, GitBlog]
-tags: [jekyll], [gitblog]
+tags: [jekyll, gitblog]
 ---
 
 그동안 참여했던 프로젝트 및 공부한 내용의 정리를 위해 사용할 수 있는 다양한 블로그 플랫폼이 존재합니다. \
