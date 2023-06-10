@@ -1,17 +1,21 @@
 ---
-# the default layout is 'page'
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 
-<span style='background-color:#f6f8fa; font-size:170%'>*I aim to be a **BETTER ME** than yesterday.*</span>
+<div align="center">
+  <span style="background-color:#f6f8fa; font-size:170%; font-weight:bold;"><em>Better me, Every day</em></span>
+</div>
+![colosseum](/assets/img/Colosseum.jpg)
 
-<br>
 <span style='font-size:130%'>**✨ I'm interested in...**</span>
 * Text Analysis
 * Computer Science
 
 <br>
-<span style='font-size:130%'>**✨ My major is...**</span>
-* Business Analysis
+<span style='font-size:130%'>**✨ I have expertise in ...**</span>
+* Business Data Analysis
 * Machine Learning
+
+<br>
