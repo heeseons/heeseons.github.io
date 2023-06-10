@@ -1,7 +1,11 @@
 ---
 title: "[2] Jekyll Chrispy 테마 커스터마이징"
-categories: [Git, GitBlog]
-tags: [jekyll, gitblog]
+categories:
+- Git
+- GitBlog
+tags:
+- jekyll
+- gitblog
 ---
 
 [GitBlog 생성](https://heeseons.github.io/posts/1_jekyll_setting/)을 통해 초기 세팅을 완료했다면, 이제 블로그를 커스터마이징 하겠습니다.\
@@ -14,23 +18,8 @@ tags: [jekyll, gitblog]
 
 <br>
 ## 1. 준비
-### 1.1. Jekyll 초기화
-테마를 커스터마이징하고 배포하기 위해서는 JavaScript를 사용하며, 이는 `Node.js` 설치가 필요합니다.
-* [Node.js 설치](https://nodejs.org/ko)
-
-`Node.js` 설치가 완료된 후, 아래 코드를 실행하여 프로젝트를 초기화합니다.\
-이 코드의 실행을 통해 `_posts`가 삭제됩니다.
-```terminal
-$ bash tools/init
-```
-> `Node.js` 설치가 선행되지 않는다면 위 코드는 실행되지 않습니다.
-{: .prompt-warning }
-
-<br>
-### 1.2. 이미지 준비
-`1.1.`을 통해 블로그가 태초의 상태로 초기화되었습니다.\
-그런데 여전히 프로필 이미지와 [파비콘](https://en.wikipedia.org/wiki/Favicon)은 원하는 모양이 아니네요.\
-프로필 이미지와 파비콘으로 사용할 이미지를 찾아줍니다.\
+### 1.1. 이미지 준비
+프로필 이미지와 [파비콘](https://en.wikipedia.org/wiki/Favicon)으로 사용할 이미지를 찾아줍니다.\
 저의 경우에는 맥북에서 제공되는 미모티콘을 프로필 이미지로 사용하고, 기본 이모티콘을 파비콘으로 활용했습니다.
 * 참고: [파비콘 변환](https://favicon.io)
 

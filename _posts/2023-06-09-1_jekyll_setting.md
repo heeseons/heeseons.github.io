@@ -1,7 +1,11 @@
 ---
 title: "[1] Jekyll 기반 GitBlog 생성(Setting)"
-categories: [Git, GitBlog]
-tags: [jekyll, gitblog]
+categories:
+- Git
+- GitBlog
+tags:
+- jekyll
+- gitblog
 ---
 
 그동안 참여했던 프로젝트 및 공부한 내용의 정리를 위해 사용할 수 있는 다양한 블로그 플랫폼이 존재합니다. \
@@ -32,8 +36,6 @@ Jekyll은 Ruby 기반이므로, Ruby 설치가 선행되어야 합니다.
 Ruby 설치를 위해 Homebrew를 이용하여 chruby와 ruby-install을 설치합니다.
 ```terminal
 $ brew install chruby ruby-install xz
-```
-```terminal
 $ ruby-install ruby 3.1.3
 ```
 
@@ -82,7 +84,35 @@ $ git clone <복사한 주소>
 해당 폴더에서 이제 작업을 하고, `git push`를 통해 서버에 업로드하면 됩니다.
 
 <br>
-### 2.3. 정상 설치 확인
+### 2.3. Jekyll 초기화
+테마를 커스터마이징하고 배포하기 위해서는 JavaScript를 사용하며, 이는 `Node.js` 설치가 필요합니다.
+* [Node.js 설치](https://nodejs.org/ko)
+
+`Node.js` 설치가 완료된 후, `tools` 폴더의 `init.sh` 파일을 실행해야 합니다.\
+생성한 프로젝트로 이동 후, 파일을 실행해주세요.
+```terminal
+$ cd <깃허브 ID>.github.io
+$ bash tools/init
+```
+> `Node.js` 설치가 선행되지 않는다면 `tools/init.sh`는 실행되지 않습니다.
+{: .prompt-warning }
+위 명령은 다음을 수행합니다.
+1. 최신 버전 확인
+2. 샘플 파일 삭제
+3. JavaScript 파일 빌드 후 **assets/js/dist**로 export
+4. 자동 커밋 생성
+
+
+<br>
+### 2.4. 종속성 추가
+이제 거의 다 했습니다!\
+아래 코드를 실행해서 종속성을 추가해주세요. (왜 하는지는 모름.. 아시는 분은 알려주세요🥲)
+```terminal
+$ bundle
+```
+
+<br>
+### 2.4. 정상 설치 확인
 기본적인 준비는 끝났습니다.\
 로컬에서 실행하여 정상적으로 설치된 것이 맞는지 확인해보겠습니다.
 ```terminal
