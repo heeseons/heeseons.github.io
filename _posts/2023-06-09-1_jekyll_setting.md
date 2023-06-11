@@ -1,6 +1,6 @@
 ---
 title: "[1] Jekyll 기반 GitBlog 생성(Setting)"
-categories: [Git, GitBlog]
+categories: [Computer Science, Git]
 tags: [jekyll, gitblog]
 ---
 

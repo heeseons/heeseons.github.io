@@ -1,6 +1,6 @@
 ---
 title: "[2] Jekyll Chrispy 테마 커스터마이징"
-categories: [Git, GitBlog]
+categories: [Computer Science, Git]
 tags: [jekyll, gitblog]
 ---
 
