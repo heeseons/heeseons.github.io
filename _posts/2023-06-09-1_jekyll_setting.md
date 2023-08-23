@@ -52,7 +52,7 @@ $ gem install jekyll bundler
 1을 완료하셨다면 반은 끝난 거예요! ('시작이 반이다'라는 얘기도 있잖아요. ㅎㅎ)\
 이제 본격적으로 사용하고 싶은 테마를 찾아봅시다.\
 일반적인 블로그는 **블로그 생성 ➡ 테마(디자인) 적용** 순이지만, 깃블로그의 경우에는 두 단계가 한 번에 이루어집니다.\
-본 포스팅에서는 `Chrispy Jekyll Theme`를 적용하려고 합니다.\
+본 포스팅에서는 `Chirpy Jekyll Theme`를 적용하려고 합니다.\
 더 많은 테마는 [Jekyll Themes](https://jekyllthemes.dev)에서 확인 가능합니다.
 
 ### 2.1. Git Fork

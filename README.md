@@ -3,18 +3,35 @@
 [![email](https://img.shields.io/badge/email-HeeseonLee-blue)](mailto:heeseonie@gmail.com)
 [![blog](https://img.shields.io/badge/blog-BytHee-yellow)](https://heeseons.github.io/)
 
+<br>
+
 ### Computer Science
+#### Algorithms
+- 문자열 검색 알고리듬: 브루트-포스, 보이어-무어, KMP
+
 #### Data Sturcutres
 - 힙(Heap)
 - 해시(Hash), 스킵 리스트(Skip list), 세트(Set)
 - 트리(Tree), 이진 탐색 트리(Binary Search Tree), AVL 트리
-- 문자열 검색 알고리듬: 브루트-포스, 보이어-무어, KMP
 
 #### Git
 - Jekyll 기반 GitBlog 생성(Setting)
 - Jekyll Chrispy 테마 커스터마이징
 - GitBlog 포스팅 및 서버 배포
 - 깃블로그에 댓글 기능 추가(Giscus)
+
+<br>
+
+### Data Science
+#### Statistical Analysis
+- 다중 회귀분석 (Boston Housing Dataset)
+- 주성분 분석(PCA)를 이용한 차원 축소
+- 베이지안 선형 회귀 분석 (Insurance)
+
+<br>
+<br>
+
+---
 
 ## Theme License
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)

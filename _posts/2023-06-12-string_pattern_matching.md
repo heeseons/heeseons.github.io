@@ -1,13 +1,13 @@
 ---
-title: '문자열 검색 알고리듬: 브루트-포스, 보이어-무어, KMP'
-categories: [Computer Science, Data Structures]
-tags: [data structures, brute-force, boyer-moore, kmp]
+title: '문자열 검색 알고리즘: 브루트-포스, 보이어-무어, KMP'
+categories: [Computer Science, Algoritms]
+tags: [algorithms, brute-force, boyer-moore, kmp]
 math: 'True'
 ---
 
 ## Pattern Matching
 
-### 브루트-포스 알고리듬 (Brute-Force Algorithm)
+### 브루트-포스 알고리즘 (Brute-Force Algorithm)
 문자열의 가능한 모든 위치에서 패턴을 비교하여 일치하는 부분 탐색\
 시간 복잡도: $O(nm)$ ($n$: 텍스트의 길이, $m$: 패턴의 길이)
 
@@ -25,11 +25,11 @@ Procedure BruteForceMatch(T,P)
 		break while loop  //mismatch
 	return -1  //no match
 ```
-{: file="psuedo code"}
+{: file="pseudo code"}
 
 <br>
 
-### 보이어-무어 알고리듬 (Boyer-Moore Algorithm)
+### 보이어-무어 알고리즘 (Boyer-Moore Algorithm)
 * **거울 휴리스틱** (Looking-glass heuristic): 패턴의 뒤에서부터 앞으로 비교
 * **문자 점프 휴리스틱** (Character-jump heuristic): 일치하지 않는 문자의 다음 비교 위치를 미리 계산하여 점프
 
@@ -56,11 +56,11 @@ Procedure BoyerMooreMatch(T, P, ∑)
 	until i>n-1
 	return -1
 ```
-{: file="psuedo code"}
+{: file="pseudo code"}
 
 <br>
 
-### KMP 알고리듬 (Knuth-Morris-Pratt's Algorithm)
+### KMP 알고리즘 (Knuth-Morris-Pratt's Algorithm)
 패턴 $P$를 전처리하여 얻은 **접두사(prefix)/접미사(suffix)** 활용\
 시간 복잡도: $O(n+m)$ ($n$: 텍스트의 길이, $m$: 패턴의 길이)
 
@@ -82,7 +82,7 @@ Procedure KMPMatch(T, P)
 			 i ← i+1
 	return -1
 ```
-{: file="psuedo code"}
+{: file="pseudo code"}
 
 <br>
 

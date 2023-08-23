@@ -1,5 +1,5 @@
 ---
-title: "[2] Jekyll Chrispy 테마 커스터마이징"
+title: "[2] Jekyll Chirpy 테마 커스터마이징"
 categories: [Computer Science, Git]
 tags: [jekyll, gitblog]
 ---
@@ -9,7 +9,7 @@ tags: [jekyll, gitblog]
 
 ---
 > 운영체제: macOS (Ventura)\
-> 사용테마: [Chrispy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
+> 사용테마: [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
 
 <br>
@@ -69,4 +69,4 @@ tags: [jekyll, gitblog]
 * [Getting Started](https://chirpy.cotes.page/posts/getting-started/)
 * [Customize the Favicon](https://chirpy.cotes.page/posts/customize-the-favicon/)
 * [Jekyll Chirpy 테마 사용하여 블로그 만들기](https://www.irgroup.org/posts/jekyll-chirpy/)
-* [Chrispy 테마 커스터마이징](https://www.irgroup.org/posts/Chirpy-테마-커스터마이징/)
+* [Chirpy 테마 커스터마이징](https://www.irgroup.org/posts/Chirpy-테마-커스터마이징/)
