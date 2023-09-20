@@ -1,5 +1,5 @@
 ---
-title: "[1] Jekyll 기반 GitBlog 생성(Setting)"
+title: "[1] Jekyll 및 GitPages 기반 블로그 생성(Setting)"
 categories: [Computer Science, Git]
 tags: [jekyll, gitblog]
 ---
@@ -9,9 +9,15 @@ tags: [jekyll, gitblog]
 저는 UI/UX에 있어서 높은 자율성과 확장성을 갖는 GitBlog를 사용하여 포트폴리오를 정리하고자 합니다.\
 Git 초보 입장에서, 초기 세팅부터 많은 난관을 겪었기 때문에 해당 포스팅은 초기 세팅만을 설명하고 있습니다.
 
+<div align=left>
+  <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=white">
+</div>
+
+[![Chirpy Jekyll Theme](https://img.shields.io/badge/Jekyll-Chirpy-CC0000?logo=jekyll&logoColor=white)](https://github.com/cotes2020/jekyll-theme-chirpy)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github)](https://github.com/heeseons/heeseons.github.io)
+
 ---
-> 운영체제: mac OS (Ventura)\
-> 사용테마: [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
 <br>
 ## 1. 로컬 환경설정

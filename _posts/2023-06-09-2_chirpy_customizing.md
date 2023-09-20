@@ -7,9 +7,14 @@ tags: [jekyll, gitblog]
 [GitBlog 생성](https://heeseons.github.io/posts/1_jekyll_setting/)을 통해 초기 세팅을 완료했다면, 이제 블로그를 커스터마이징 하겠습니다.\
 커스터마이징에 활용하는 모든 이미지에 대한 책임은 사용자 본인에게 있으니, 저작권 문제를 꼭 유념하시기 바랍니다.
 
+<div align=left>
+  <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=white">
+</div>
+
+[![Chirpy Jekyll Theme](https://img.shields.io/badge/Jekyll-Chirpy-CC0000?logo=jekyll&logoColor=white)](https://github.com/cotes2020/jekyll-theme-chirpy)
+
 ---
-> 운영체제: macOS (Ventura)\
-> 사용테마: [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
 
 <br>

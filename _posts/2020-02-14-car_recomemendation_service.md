@@ -4,6 +4,7 @@ categories: [Data Science, Machine Learning]
 tags: [nlp, text analysis, svm]
 math: 'True'
 img_path: "/assets/img/posting"
+pin: true
 ---
 
 <div align=left>
